@@ -73,6 +73,7 @@ def run():
   """
   Run the twitter bot.
   """
+
   # get old price
   count = 0
   hour = 60*60
