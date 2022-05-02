@@ -1,4 +1,4 @@
-# crypto-price-tracker
+# crypto-price-tracker-bot
 
 Example: https://twitter.com/polygontracker
 <h2>Why Did You Make It?</h2>
