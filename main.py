@@ -12,7 +12,6 @@ def generate_data(old_price):
     """
     Pulls current data for coin from coinmarketcap API endpoint
     """
-    
     # keys and params for coinmarketcap
     url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest'
     cmc_key = credentials.CMC_API_key
@@ -42,7 +41,6 @@ def tweet_price(CMC_data, count):
     """
     Take current price and percent change data and tweets it.
     """
-    
     # keys for twitter
     consumer_key = credentials.API_key
     consumer_secret = credentials.API_secret_key
@@ -73,7 +71,6 @@ def run():
   """
   Run the twitter bot.
   """
-
   # get old price
   count = 0
   hour = 60*60
